@@ -1,6 +1,6 @@
 # Project Name 
-Kr : 인공지능을 활용한 대화형 해상물류 통합민원 서비스 개발
-En : Develop conversational marine logistics synthesis complaint application service use artificial intelligence
+- Kr : 인공지능을 활용한 대화형 해상물류 통합민원 서비스 개발
+- En : Develop conversational marine logistics synthesis complaint application service use artificial intelligence
 
 ## 작품 소개
 -PORTMIS PLUS+는 모바일 항만 종합 정보 제공 애플리케이션으로 해운 항만 물류정보시스템과 해양 안전 종합정보시스템의 주요 기능을 제공하는 서비스다. 부가적으로 사용자 편의 개선을 위해 챗봇, 게시판 기능을 제공한다.
