@@ -37,6 +37,7 @@ Port-Mis를 모바일로 사용할 순 있지만, 관련된 어플리케이션�
 ## 개발 환경
 
 - 백엔드 : Node.js, PHP
-- 프론트엔드 : ui디자인 -figma / 화면 구현 및 기능 구현 - 안드로이드 스튜디오
+- 프론트엔드 & ui디자인 : figma 
+- 화면 구현 및 기능 구현 : 안드로이드 스튜디오
 - DB : MYSQL
 - 챗봇 : MicrosoftBotFrameWork
