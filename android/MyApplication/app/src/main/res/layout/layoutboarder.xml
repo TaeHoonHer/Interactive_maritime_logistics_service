@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id = "@+id/layout"
+    >
+    <corner
+        android:radius = "20pt"/>
+
+</LinearLayout>

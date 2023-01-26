@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity_write_in_message_board">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_message_write_in_messageboard"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FF578DFF"
+        android:minHeight="?attr/actionBarSize"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/write_title_text"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="제목입력"/>
+
+    <EditText
+        android:id="@+id/write_content_text"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/gray_background"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="내용입력"
+        />
+
+    <ImageButton
+        android:id="@+id/write_upload"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="270dp"
+        android:layout_width="130dp"
+        android:layout_height="35dp"
+        android:scaleType="fitXY"
+        android:background="#00ffffff"
+        android:src="@drawable/board_write_go_button2"
+/>
+
+</LinearLayout>

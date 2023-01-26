@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="app_group1">a1</string>
+    <string name="app_group2">a2</string>
+    <string name="app_group3">a3</string>
+    <string name="app_group4">a4</string>
+
+    <string name="port_group1">g1</string>
+    <string name="port_group2">g2</string>
+    <string name="port_group3">g3</string>
+    <string name="port_group4">g4</string>
+
+    <string-array name="app_group1">
+        <item>item1</item>
+    </string-array>
+
+    <string-array name="app_group2">
+        <item>item1</item>
+        <item>item2</item>
+    </string-array>
+
+    <string-array name="app_group3">
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+    </string-array>
+
+    <string-array name="app_group4">
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+    </string-array>
+
+    <string-array name="port_group1">
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+        <item>item4</item>
+    </string-array>
+
+    <string-array name="port_group2">
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+        <item>item4</item>
+    </string-array>
+
+    <string-array name="port_group3">
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+        <item>item4</item>
+    </string-array>
+
+    <string-array name="port_group4">
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+        <item>item4</item>
+    </string-array>
+
+
+</resources>

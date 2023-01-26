@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.a2022realproject_pmplusapp">
+    <!-- 인터넷 권한 선언 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_myreal_background"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_myreal_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.2022RealProject_PMplusApp"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <activity
+            android:name=".MainActivity_notice_content_when_click"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_loding"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> <!-- 첫 실행 화면으로 만들어준거 위 intent어쩌고가 -->
+        </activity>
+        <activity
+            android:name=".MainActivity_MshipData_Result_Fail"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_Shipdata_Result_Fail"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_Search_PW_Success"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_Search_ID_Success"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_Notice_Newest"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_Search_PW_Fail"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_click_message_board"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_write_in_message_board"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_MshipData_Result"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_Search_ID_Fail"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_Search_PW"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_Search_ID"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_Notice_Gathering"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_Shipdata_Result"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_Setting"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_message_board"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_ChatBot"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_Weather"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_MshipData"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_ShipData"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_PM_Main"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_Membership"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_Success_membership"
+            android:exported="true" />
+    </application>
+
+</manifest>

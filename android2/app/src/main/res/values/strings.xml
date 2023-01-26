@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="app_group1">a1</string>
+    <string name="port_group1">g1</string>
+
+
+    <string-array name="app_group1">
+        <item>item1</item>
+    </string-array>
+
+
+    <string-array name="port_group1">
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+        <item>item4</item>
+    </string-array>
+
+
+
+
+</resources>

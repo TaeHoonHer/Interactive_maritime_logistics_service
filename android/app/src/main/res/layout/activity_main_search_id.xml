@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gray_background"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity_Search_ID">
+
+
+    <ImageButton
+        android:id="@+id/btn_go_id_result"
+        android:layout_width="310dp"
+        android:layout_height="52dp"
+        android:background="#00ffffff"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.648"
+        app:srcCompat="@drawable/search_id" />
+
+    <ImageView
+        android:id="@+id/image_idsearch"
+        android:layout_width="310dp"
+        android:layout_height="55dp"
+        android:background="#00ffffff"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar_seach_id"
+        app:layout_constraintVertical_bias="0.369"
+        app:srcCompat="@drawable/text_write" />
+
+    <EditText
+        android:id="@+id/et_Login_id_search"
+        android:layout_width="272dp"
+        android:layout_height="54dp"
+        android:background="#00ffffff"
+        android:ems="10"
+        android:hint="아이디를 입력해주세요."
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/image_idsearch"
+        app:layout_constraintEnd_toEndOf="@+id/image_idsearch"
+        app:layout_constraintStart_toStartOf="@+id/image_idsearch"
+        app:layout_constraintTop_toTopOf="@+id/image_idsearch"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/image_email"
+        android:layout_width="310dp"
+        android:layout_height="55dp"
+        android:scaleType="fitXY"
+        android:background="#00ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/text_write" />
+
+    <EditText
+        android:id="@+id/et_Login_id_email_search"
+        android:layout_width="276dp"
+        android:layout_height="54dp"
+        android:background="#00ffffff"
+        android:ems="10"
+        android:hint="이메일을 입력해주세요."
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/image_email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/image_email"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_seach_id"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="#F3F3F3"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="정보를 입력해주세요."
+        android:textColor="#373737"
+        android:textSize="31sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_seach_id"
+        app:layout_constraintVertical_bias="0.149" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
